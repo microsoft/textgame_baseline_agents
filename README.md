@@ -1,6 +1,6 @@
 ## AStar Results
 
-These results are obtained from 3 independent runs of AStar using seed values 1, 2, 3. Each run was allowed to expand 200,000 nodes in the search tree. This experiment can be replicated as follows:
+A* Search builds a graph of visited states in search of high-scoring game states. It uses the save and load handicap to visit arbitrary states in the graph and valid actions to expand a state and obtain all of the subsequent child-states. In search of the highest scores, A* uses a heuristic to which preferrs to expand states that have higher game scores. The following results are obtained from 3 independent runs of AStar using --seed=1/2/3. Each run was allowed to expand 200,000 nodes in the search tree. This experiment can be replicated as follows:
 
 ```python astar.py --rom {rom} --seed {seed} --iters 200000```
 
