@@ -1,5 +1,9 @@
 ## AStar Results
 
+These results are obtained from 3 independent runs of AStar using seed values 1, 2, 3. Each run was allowed to expand 200,000 nodes in the search tree. This experiment can be replicated as follows:
+
+```python astar.py --rom {rom} --seed {seed} --iters 200000```
+
 
 |       Game       |  Mean | Std  | MAX | Completion % |
 |------------------|-------|------|-----|--------------|
